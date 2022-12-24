@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* COLOR VARIABLES */
+:root {
+    --PrimaryColor: #e9f7e4;
+    --navigation:#82db61;
+    --SecondaryColor: #2d9507;
+    --Accent: #e0e0e9;
+    --white: #ffffff;
+    --Red: #ea1111;
+    --black: #000000;
+}
+
+body{
+    font-family:"PT Serif", sans-serif ;
+    background-color: var(--white);
+} 
+
+
+/* HEADING SELECTORS */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "PT Serif", sans-serif;
+    color:var(--SecondaryColor)
+}
+h1{
+    font-weight: 900;
+}
+h2{
+  font-weight: 600;
+}
+.container-fluid{
+padding: 0 15%;
+}
+
+hr {
+    border: dotted var(--Accent) 5px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px 10px;
+
+}
+
+/* SECTION SELECTOR */
+
+    /* #services{
+    }
+    #pricing{
+    }
+    #about{
+    }
+    #contact{
+    } */
+    .colored{
+    background-color: var(--PrimaryColor);
+    }
+
+    .not-colored{
+        background-color: var(--white);
+    }
+    /* NAVIGATION */
+    .navbar{
+        padding-bottom: 2%;
+    }
+   
+    .brand{
+        color:var(--black) !important;
+        padding-left: 0 !important;
+        border-radius: 10px;
+        text-align: left;
+        margin-left: 0;
+        font-weight: bold;
+        font-size: 2rem;
+
+    }
+    .brand:hover{
+        color: var(--Red) !important;
+    }
+   
+    .nav-link{
+        color: var(--SecondaryColor) !important;
+        font-weight: 600;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+    .nav-link:hover{
+    color: var(--Red) !important;
+    transform: scale(1.1);
+    }
+    span .icon{
+    color: var(--Red) !important;
+    }
+  
+
+
+    /* NAVIGATION */
+
+/*Home section */
+        #home {
+        padding-top: 1%;
+        }
+/* Home section */
+
+
+/* SERVICES */
+#service{
+    padding-top: 10%;
+   
+
+}
+ .home-heading {
+    font-family: "Noto serif";
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--black);
+    text-align: justify;
+    margin-left: 10px;
+}
+.download-button {
+    margin: 2% 10px;
+    padding: 2% 10%;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.download-button:hover{
+    background-color: var(--Red);
+    transform: scale(1.1);
+}
+
+.service-image{
+    position: relative;
+    left: 110px;
+    /* right: 10px; */
+    top:2px;
+
+}
+.service-fruits{
+    width: 8%;
+    margin: 0 8%;
+}
+.service-fruits:nth-child(1){
+    margin-left: 0;
+}
+
+.fruit-cage{
+        border: dotted var(--Accent) 4px;
+        margin-left: 10px;
+        border-radius: 10px;
+    
+}
+.fruit-cage:hover{
+    color:var(--SecondaryColor)
+}
+@media(max-width:1000px) {
+    .service-image {
+        position: static;
+        width: 100%;
+
+    }
+
+
+}
+
+/* services */
+
+
+/* DIETICIAN */
+#diet{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.icon {
+    color: var(--Red);
+    margin-bottom: 1rem;
+}
+
+.diet-fruits{
+    background-color: var(--PrimaryColor);
+    width: 100%;
+    object-fit: cover;
+    border: solid 1px var(--Accent);
+    border-radius: 10px;
+}
+
+.service-head{
+    padding-bottom: 5%;
+    color: var(--black);
+}
+
+#pricing {
+    padding:5% 0;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 1.5rem;
+}
+ 
+.tips li{
+  text-align: left;
+
+}
+
+#footer{
+    padding: 2% 0;
+}
+.social-icon{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    border-radius:  8px 4px 4px 8px;
+    border: solid 2px var(--SecondaryColor);
+}
+
+#about{
+    padding-bottom: 25%;
+    background-color: var(--black);
+    padding-top: 3%;
+}
+
+.about-image{
+    position: relative;
+    right:110px;
+}
+.about-heading{
+    
+    color:var(--white);
+    line-height: 1.5;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic;
+    color:var(--white);
+}
