@@ -230,7 +230,7 @@ hr {
     right:110px;
 }
 .about-heading{
-    
+    text-align:justify;
     color:var(--white);
     line-height: 1.5;
 }
